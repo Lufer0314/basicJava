@@ -1,0 +1,22 @@
+
+navegar(url){
+    navegar a la pagina de Sinatra
+    validar que se cargan los elementos de la pagina cargo
+      *imagen de sinatra
+      *link de login
+}
+
+login(username,password) {
+    Darle click al link de login
+    verificar que se abre la pagina de login
+    Ingresar usuario en el campo de usuario
+    Ingresar Password en el campo de password
+    Dar clic en el boton de login
+}
+
+ MensajeLogueado(mensaje){
+   verificar que estoy logueado
+      * mensaje de bienvenida que dice "You are now logged in as frank"
+      * aparece la imagen
+      * link de log out
+}

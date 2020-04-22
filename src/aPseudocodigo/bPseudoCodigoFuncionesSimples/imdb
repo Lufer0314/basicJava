@@ -1,0 +1,31 @@
+Registrarse(){
+
+    click SingIn boton  (se abre pantalla para registrarse)
+    Click boton create new account(campo your name, email password,Re-enter password, create your IMDB account)
+    llenar campos correspondientes (adri, adri@adri.com, 12345678, 12345678)
+    click create your IMDB account
+
+}
+
+RegistroCorrecto() {
+	navegar(“https://imdb.com”)
+	registrarCuenta(cris, cris@cris.com, test@1234)
+	validarCuenta(cris)
+}
+
+BuscarPelicula(nombrePelicula, anioPelicula){
+    Buscar(nombrePelicula)
+    Click boton buscar(aparecen resultados de la busqueda)
+    Validar nombrePelicula, anioPelicula
+}
+
+ObtenerInformacion(){
+    Click en el nombre de la pelicula(se abre informacion de la pelicula)
+    validar informacion (director, writers, stars y sinopsis)
+}
+
+AddWatchList(){
+    Navegar ("imdb.com")
+    loginCorrecto(adri@adri.com, 12345678)
+    BuscarPelicula(Toy Story 4)
+    Click Boton Add

@@ -1,0 +1,18 @@
+//Listar 7 canciones
+
+ingresarDatosCanciones() {
+  click en el link New songs
+  Ingresar Titulo
+  Ingresar  la Duración de la canción
+  Ingresar la fecha
+  Ingresar la letra de la canción
+  Clic en el botón Save Songs
+  Validar el mensaje:  "Song successfully added"
+
+}
+
+contador_cancion es cero
+while(contador_cancion es menor que siete) {
+    ingresarCancion()
+    contador_cancion se aumenta en uno
+  }

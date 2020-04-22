@@ -1,0 +1,47 @@
+ PreparaciónSandwich() {
+     Reunir Ingredientes()
+     Reunir utensilios de cocina()
+     Preparar los vegetales()
+     Hacer Sandwich()
+ }
+
+ Reunir Ingredientes(pan,aderezo,jamon,queso,vegetales,picante){
+    Seleccinar Pan ( Rebanado, Barra, Blanco, Integral, Trigo, Centeno )
+    Seleccinar aderezo ( Mayonesa, crema, mostaza ),
+    Seleccinar jamón ( Pierna, pavo ),
+    Seleccinar Queso ( Chihuahua, manchego, gouda )
+    Seleccinar vegetales ( lechuga, tomate, cebolla, pepino, pepinillos )
+    Seleccinar Picante
+
+   }
+
+Reunir utensilios de cocina(tipoCuchillo, tipoTabla){
+    seleccionar Cuchillos (Serrado, cebollero)
+    Selecionar Tabla de picar (madera, plástico)
+    Seleccinar Platos
+    Seleccinar Servilletas
+
+    }
+
+Preparar los vegetales(){
+    Rebanar tomates
+    Rebanar cebolla
+    Deshojar lechuga
+    Rebanar pepino
+}
+
+Hacer Sandwich(Aderezos, vegetales,picante){
+ Tomar 2 rebanadas de pan
+   *Abrir paquete de pan rebanado o rebanar barra de pan.  ¿Quitar orillas?
+  Embadurnar ambas rebanadas de pan on mayonesa
+    ¿Ambas con mayonesa? ¿Una con mayonesa otra con mostaza?
+  Colocar Jamón sobre un pan
+  Colocar los vegetales
+    Agregar x hojas de lechuga sobre el jamón
+         “  x rodajas de tomate sobre la lechuga
+         “ x rodajas de cebolla sobre el tomate
+         “ x rodajas de pepino sobre la cebolla
+   Agregar Picante
+   Envolver el sándwich
+
+}

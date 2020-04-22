@@ -1,0 +1,35 @@
+Crear canción(){
+
+1. Haberse logueado
+2.Clic en Songs
+3. Validar que se muestre el mensaje
+  * Add A New Song
+4. Valdar que se muestren los campos:
+  * Ingresar Titulo
+  * Ingresar Longitud
+  * Ingresar Fecha
+  * Ingresar letra
+  * boton save song
+ 4. Ingresar los valores en lo campos requeridos
+  * Titulo Happy
+  * Ingresar longitud 3000
+  * Fecha 04/20/2020
+  * Because I am happy
+ 5. Darle Clic en save songs
+ 6 Verificar que se creo la canción
+  * Se muestra el mensaje: Song successfully added
+ 7 Verificar detalles de la canción agregada
+  * Happy
+  * Release Date: 20 April 2020
+  * Length: 50 minutes 0 seconds
+  * because I am happy
+  * Mesaje: Nobody has liked this song so far!
+  * botón Like
+  * edit this song
+  * delete this song
+  * Link Log out
+
+
+
+
+}

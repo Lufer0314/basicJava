@@ -1,0 +1,41 @@
+VerFotosFacebookAmigo() {
+    loginFacebook()
+    buscarAmigo()
+    entrarAlbums()
+    ver20Fotos()
+}
+loginFacebook(){
+    1. Agregar username
+    2. Agregar Password
+    3. Dar clic a Login
+        * Verificar que se despliega el muro de facebook de la cuenta
+}
+
+buscarAmigo(){
+    1. Dar clic en lista de amigos
+        * Verificar que se muestren amigos
+    2. Seleccionar amigo a stalkear
+        * Verificar que se muestre el muro del amigo seleccionado
+
+}
+
+entrarAlbums(){
+    1. Dar clic en Link de Fotos
+        * Verificar que se muestren las fotos
+}
+
+ver20Fotos(){
+    1. ContadorFotosVistas = 0
+    2. While (ContadorFotosVistas < 20){
+        Ver foto;
+        Dar clic en ">"; // ver la sig foto
+        ContadorFotosVistas ++;
+        if (fotosEnAlbum<20){
+            VerOtroAlbum();
+        }
+    }
+}
+
+VerOtroAlbum(){
+
+}

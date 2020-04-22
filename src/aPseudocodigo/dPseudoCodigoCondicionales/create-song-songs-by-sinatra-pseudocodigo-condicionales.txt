@@ -1,0 +1,22 @@
+createSong() {
+    login()
+    listarCanciones()
+    ingresarDatosCanciones()
+    validarDatosCanciones()
+}
+
+login() {
+
+}
+
+listarCanciones() {
+
+}
+
+ingresarDatosCanciones() {
+
+}
+
+validarDatosCanciones() {
+
+}
